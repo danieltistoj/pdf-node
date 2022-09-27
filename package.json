@@ -1,0 +1,24 @@
+{
+  "name": "pdf-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieltistoj/pdf-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danieltistoj/pdf-node/issues"
+  },
+  "homepage": "https://github.com/danieltistoj/pdf-node#readme",
+  "dependencies": {
+    "pdfmake": "^0.2.5"
+  }
+}

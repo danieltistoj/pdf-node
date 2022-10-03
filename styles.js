@@ -26,6 +26,10 @@ export const  style={
         bold: true,
         alignment:"center"
     },
+    footer:{
+        alignment:"right", 
+        margin: [0,30 ,0, 0]
+    },
     text: {
         fontSize: 12,
         margin: [0, 10, 0, 5],

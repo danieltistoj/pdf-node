@@ -114,6 +114,21 @@ export const content = {
 			},
 			pageOrientation: 'landscape', pageBreak: 'before'
 		},
-		{text:"NOTA: Sobresaliente = 90 - 100; Muy Bueno = 80 - 89; Bueno = 70 - 79; Regular = 60 - 69; Malo = 0 - 59",style:"textSimple" }
+		{text:"NOTA: Sobresaliente = 90 - 100; Muy Bueno = 80 - 89; Bueno = 70 - 79; Regular = 60 - 69; Malo = 0 - 59",style:"textSimple" },
+		{
+			table:{
+				heights:[40,40,'*'],
+				widths: [10,200, 60, '*', '*','*',200],
+				body:[
+					[{},{},{text:"Resultado",style:"footer"},{text:"",border: [false, false, false,true]},{text:"",border: [false, false, false,true]},{},{}],
+					[{text:"f)",style:"footer"},{text:"",border: [false, false, false,true]},{},{text:"SELLO", margin: [0,30 ,0, 0]},{},{text:"Vo.Bo.",style:"footer"},{text:"",border: [false, false, false,true]}],
+					[{},{text:"Prof. del grado",alignment:"center"},{},{},{},{},{text:"Director", alignment:"center"}]
+					
+				]
+			},
+			layout: {
+				defaultBorder: false,
+			}
+		}
 	]
 }

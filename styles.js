@@ -10,9 +10,16 @@ export const  style={
         margin: [0, 0, 0, 10],
         alignment:"center",
     },
+    missedCourse:{
+        color:"red",
+        bold: true
+    },
+    courseWon:{
+        bold:true
+    },
     columnLeft:{
         alignment: 'center',
-        fontSize: 20,
+        fontSize: 15,
         margin: [0,60 ,0, 0],
     },
     subheader: {

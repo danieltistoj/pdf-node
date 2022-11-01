@@ -103,13 +103,13 @@ export const content = {
 			style: 'tableExample',
 			table: {
 				heights: 40,
-				widths: ['*',100, '*', '*', '*','*',100],
+				widths: ['*',100, '*', '*', '*','*',100,100],
 				body:[
 				[{text: 'No.', style: 'tableHeader'},{text: 'Asignatura', style: 'tableHeader'}, {text: 'Unidad I', style: 'tableHeader'}, {text: 'Unidad II', style: 'tableHeader'},
-				{text: 'Unidad III', style: 'tableHeader'},{text: 'Unidad IV', style: 'tableHeader'},{text: 'Promedio', style: 'tableHeader'}],
-				[ 1, { text: 'curso 1', style: 'tableHeader' }, 34.5, 40, 50, 60, 0 ],
-				[ 2, { text: 'curso 2', style: 'tableHeader' }, 34.5, 40, 50, 60, 0 ],
-				[ 3, { text: 'curso 3', style: 'tableHeader' }, 34.5, 40, 50, 60, 0 ]
+				{text: 'Unidad III', style: 'tableHeader'},{text: 'Unidad IV', style: 'tableHeader'},{text: 'Promedio', style: 'tableHeader'},{text: 'Comentario', style: 'tableHeader'}],
+				[ 1, { text: 'curso 1', style: 'tableHeader' }, 34.5, 40, 50, 60, {text:0,style:"missedCourse"},"" ],
+				[ 2, { text: 'curso 2', style: 'tableHeader' }, 34.5, 40, 50, 60, 0 ,""],
+				[ 3, { text: 'curso 3', style: 'tableHeader' }, 34.5, 40, 50, 60, 0 ,""]
 				]
 			},
 			pageOrientation: 'landscape', pageBreak: 'before'
@@ -118,9 +118,9 @@ export const content = {
 		{
 			table:{
 				heights:[40,40,'*'],
-				widths: [10,200, 60, '*', '*','*',200],
+				widths: [10,200, 60, 135, '*','*',200],
 				body:[
-					[{},{},{text:"Resultado",style:"footer"},{text:"",border: [false, false, false,true]},{text:"",border: [false, false, false,true]},{},{}],
+					[{},{},{text:"Resultado",style:"footer"},{text:"APROBADO",border: [false, false, false,true],style:"footer"},{text:"",border: [false, false, false,true]},{},{}],
 					[{text:"f)",style:"footer"},{text:"",border: [false, false, false,true]},{},{text:"SELLO", margin: [0,30 ,0, 0]},{},{text:"Vo.Bo.",style:"footer"},{text:"",border: [false, false, false,true]}],
 					[{},{text:"Prof. del grado",alignment:"center"},{},{},{},{},{text:"Director", alignment:"center"}]
 					

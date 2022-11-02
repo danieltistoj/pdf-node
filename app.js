@@ -14,7 +14,7 @@ const pdfCreate = async () => {
             content:content.content,
             styles:style,
             pageOrientation: 'landscape',
-            pageSize: 'LEGAL',
+            pageSize: 'TABLOID',
         }
        // console.log(docDefinition)
         let printer = new PdfPrinter(fonts)

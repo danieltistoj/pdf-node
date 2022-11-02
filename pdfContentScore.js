@@ -25,7 +25,7 @@ export const content = {
         {
 			style: 'tableExample',
 			table: {
-                widths: [20,100,12,12,12,12,12,12,12,12,12,12,12,12
+                widths: [20,110,12,12,12,12,12,12,12,12,12,12,12,12
                               ,12,12,12,12,12,12,12,12,12,12,12,12
                               ,12,12,12,12,12,12,12,12,12,12,12,12
                               ,12,12,12,12,12,12,12,12,12,12,12,12],
@@ -38,11 +38,17 @@ export const content = {
                     {text:"Unidad IV",bold:true,colSpan: 12,style:"tableHeader"},{},{},{},{},{},{},{},{},{},{},{},
                     ],
                     [{},{}
-                        ,{text:"Lectura silabas",alignment:"vertical"},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
+                        ,{text:"Lectura silabas",rotate:180,margin: [30, 15, 30, 15]},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",rotate:180,margin: [30, 15, 30, 15]},{text:"PRUEBA OBJETVA",rotate:180,margin: [30, 15, 30, 15]},{text:"TOTAL GENERAL",rotate:180,margin: [30, 15, 30, 15]}
+                        ,{},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",rotate:180,margin: [30, 15, 30, 15]},{text:"PRUEBA OBJETVA",rotate:180,margin: [30, 15, 30, 15]},{text:"TOTAL GENERAL",rotate:180,margin: [30, 15, 30, 15]}
+                        ,{},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",rotate:180,margin: [30, 15, 30, 15]},{text:"PRUEBA OBJETVA",rotate:180,margin: [30, 15, 30, 15]},{text:"TOTAL GENERAL",rotate:180,margin: [30, 15, 30, 15]}
+                        ,{},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",rotate:180,margin: [30, 15, 30, 15]},{text:"PRUEBA OBJETVA",rotate:180,margin: [30, 15, 30, 15]},{text:"TOTAL GENERAL",rotate:180,margin: [30, 15, 30, 15]}
                         ],
+                    [{},{}
+                        ,{text:1},{text:2},{text:3},{text:4},{text:5},{text:6},{text:7},{text:8},{text:9},{},{},{}
+                        ,{text:1},{text:2},{text:3},{text:4},{text:5},{text:6},{text:7},{text:8},{text:9},{},{},{}
+                        ,{text:1},{text:2},{text:3},{text:4},{text:5},{text:6},{text:7},{text:8},{text:9},{},{},{}
+                        ,{text:1},{text:2},{text:3},{text:4},{text:5},{text:6},{text:7},{text:8},{text:9},{},{},{}
+                    ],
                      [{text:"1"},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
                     ,{},{},{},{},{},{},{},{},{},{},{},{}
                     ,{},{},{},{},{},{},{},{},{},{},{},{}

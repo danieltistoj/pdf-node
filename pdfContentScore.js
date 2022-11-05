@@ -38,7 +38,7 @@ export const content = {
                     {text:"Unidad IV",bold:true,colSpan: 12,style:"tableHeader"},{},{},{},{},{},{},{},{},{},{},{},
                     ],
                     [{},{}
-                        ,{text:"Lectura silabas",style:"tableHeader2"},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",style:"tableHeaderTotal"},{text:"PRUEBA OBJETVA",style:"tableHeaderPrueba"},{text:"TOTAL GENERAL",style:"tableHeaderTotalGeneral"}
+                        ,{},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",style:"tableHeaderTotal"},{text:"PRUEBA OBJETVA",style:"tableHeaderPrueba"},{text:"TOTAL GENERAL",style:"tableHeaderTotalGeneral"}
                         ,{},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",style:"tableHeaderTotal"},{text:"PRUEBA OBJETVA",style:"tableHeaderPrueba"},{text:"TOTAL GENERAL",style:"tableHeaderTotalGeneral"}
                         ,{},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",style:"tableHeaderTotal"},{text:"PRUEBA OBJETVA",style:"tableHeaderPrueba"},{text:"TOTAL GENERAL",style:"tableHeaderTotalGeneral"}
                         ,{},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",style:"tableHeaderTotal"},{text:"PRUEBA OBJETVA",style:"tableHeaderPrueba"},{text:"TOTAL GENERAL",style:"tableHeaderTotalGeneral"}
@@ -50,122 +50,48 @@ export const content = {
                         ,{text:1},{text:2},{text:3},{text:4},{text:5},{text:6},{text:7},{text:8},{text:9},{},{},{}
                     ],
                      [{text:"1"},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                    ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ,{},{},{},{},{},{},{},{},{},{},{},{}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
                     ],
                     [{text:"2"},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
                     ],
                     [{text:"3"},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
                     ],
-                    [{text:4},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:5},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:6},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:7},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:8},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:9},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:10},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:11},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:12},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:13},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:14},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:15},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:16},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:17},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:18},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                    ],
-                    [{text:19},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
-                        ,{},{},{},{},{},{},{},{},{},{},{},{}
+                    [{text:"4"},{text:"erqwrqwer rewrqwe eqwrqr ewrqr"}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
+                    ,{},{},{},{},{},{},{},{},{},{text:"", style:"tableHeaderTotal"},{text:"",style:"tableHeaderPrueba"},{text:"",style:"tableHeaderTotalGeneral"}
                     ]
+                                    
 					
 				]
 			}
-		}
+		},
+        "\n\n\n\n",
+        {
+            styles:"tableExample",
+            table:{
+                widths:[10,295, 60, 35, 295,60,35,295],
+                body: [
+                    
+					[{text:"F."},{text:"",border: [false, false, false,true]},{},{text:"Vo.Bo."},{text:"",border: [false, false, false,true]},{},{text:"Vo.Bo."},{text:"",border: [false, false, false,true]}],
+					[{},{text:"Docente de grado",style:"textSimple"},{},{},{text:"Comisión de evaluación",style:"textSimple"},{},{},{text:"Prof. Juan Carlos De León Matías \n Director.",style:"textSimple"}]
+				]
+            },
+            layout: {
+                defaultBorder: false,
+            }
+        }
 	]
 }

@@ -38,10 +38,10 @@ export const content = {
                     {text:"Unidad IV",bold:true,colSpan: 12,style:"tableHeader"},{},{},{},{},{},{},{},{},{},{},{},
                     ],
                     [{},{}
-                        ,{text:"Lectura silabas",rotate:180,margin: [30, 15, 30, 15]},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",rotate:180,margin: [30, 15, 30, 15]},{text:"PRUEBA OBJETVA",rotate:180,margin: [30, 15, 30, 15]},{text:"TOTAL GENERAL",rotate:180,margin: [30, 15, 30, 15]}
-                        ,{},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",rotate:180,margin: [30, 15, 30, 15]},{text:"PRUEBA OBJETVA",rotate:180,margin: [30, 15, 30, 15]},{text:"TOTAL GENERAL",rotate:180,margin: [30, 15, 30, 15]}
-                        ,{},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",rotate:180,margin: [30, 15, 30, 15]},{text:"PRUEBA OBJETVA",rotate:180,margin: [30, 15, 30, 15]},{text:"TOTAL GENERAL",rotate:180,margin: [30, 15, 30, 15]}
-                        ,{},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",rotate:180,margin: [30, 15, 30, 15]},{text:"PRUEBA OBJETVA",rotate:180,margin: [30, 15, 30, 15]},{text:"TOTAL GENERAL",rotate:180,margin: [30, 15, 30, 15]}
+                        ,{text:"Lectura silabas",style:"tableHeader2"},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",style:"tableHeaderTotal"},{text:"PRUEBA OBJETVA",style:"tableHeaderPrueba"},{text:"TOTAL GENERAL",style:"tableHeaderTotalGeneral"}
+                        ,{},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",style:"tableHeaderTotal"},{text:"PRUEBA OBJETVA",style:"tableHeaderPrueba"},{text:"TOTAL GENERAL",style:"tableHeaderTotalGeneral"}
+                        ,{},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",style:"tableHeaderTotal"},{text:"PRUEBA OBJETVA",style:"tableHeaderPrueba"},{text:"TOTAL GENERAL",style:"tableHeaderTotalGeneral"}
+                        ,{},{},{},{},{},{},{},{},{},{text:"TOTAL Z.",style:"tableHeaderTotal"},{text:"PRUEBA OBJETVA",style:"tableHeaderPrueba"},{text:"TOTAL GENERAL",style:"tableHeaderTotalGeneral"}
                         ],
                     [{},{}
                         ,{text:1},{text:2},{text:3},{text:4},{text:5},{text:6},{text:7},{text:8},{text:9},{},{},{}

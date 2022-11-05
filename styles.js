@@ -53,5 +53,29 @@ export const  style={
         bold: true,
         fontSize: 13,
         color: 'black',
-    }
+    },
+    tableHeader2:{
+        rotate:180,
+        margin: [30, 15, 30, 15],
+        bold:true
+    },
+    tableHeaderTotal:{
+        rotate:180,
+        margin: [30, 15, 30, 15],
+        bold:true,
+        fillColor: "#8EA9DB"
+    },
+    tableHeaderPrueba:{
+        rotate:180,
+        margin: [30, 15, 30, 15],
+        bold:true,
+        fillColor: "#FFD966"
+    },
+    tableHeaderTotalGeneral:{
+        rotate:180,
+        margin: [30, 15, 30, 15],
+        bold:true,
+        fillColor: "#B4C6E7"
+    },
+
 }
